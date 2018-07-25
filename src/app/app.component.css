@@ -11,8 +11,13 @@ section {
 }
 
 div {
-  width: 95%;
-  height: 90%;
   border: 3px solid black;
+  box-sizing: border-box;
+}
+
+div#building {
+  width: 15rem;
+  height: 90%;
+  padding: 1rem;
   background-color: aquamarine;
 }
