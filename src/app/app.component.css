@@ -13,12 +13,16 @@ section {
 div {
   border: 3px solid black;
   background-color: aquamarine;
-  margin: 1rem;
 }
 
 div.pictures {
-  margin: 1rem;
-  width: 20vw;
-  height: 20vh;
+  margin: 0.5rem;
+  width: 6rem;
+  height: 2rem;
   background-color: cornflowerblue;
+}
+
+div#door {
+  width: 1.4rem;
+  height: 2rem;
 }
