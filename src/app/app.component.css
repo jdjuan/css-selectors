@@ -11,18 +11,8 @@ section {
 }
 
 div {
+  width: 95%;
+  height: 90%;
   border: 3px solid black;
   background-color: aquamarine;
-}
-
-div.pictures {
-  margin: 0.5rem;
-  width: 6rem;
-  height: 2rem;
-  background-color: cornflowerblue;
-}
-
-div#door {
-  width: 1.4rem;
-  height: 2rem;
 }
