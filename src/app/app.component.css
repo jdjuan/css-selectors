@@ -1,21 +1,16 @@
-section,
-div {
+section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: stretch;
-}
-
-section {
   height: 100vh;
   width: 100vw;
   background-color: indigo
 }
 
 div {
-  flex-direction: column;
   border: 3px solid black;
   box-sizing: border-box;
 }
@@ -25,47 +20,4 @@ div#building {
   height: 90%;
   padding: 1rem;
   background-color: aquamarine;
-}
-
-div.window {
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  height: 3rem;
-  margin: 0.3rem 0;
-  background-color: cornflowerblue;
-}
-
-span {
-  font-size: 3rem;
-}
-
-div.window span {
-  font-size: 1rem;
-  transition: font-size 2s;
-  cursor: zoom-in
-}
-
-div.window:first-child span:first-child {
-  font-size: 2rem;
-}
-
-div.window:first-child span:hover {
-  font-size: 2rem;
-}
-
-div.window:first-child span:nth-child(4) {
-  border: 5px solid;
-}
-
-[data-bomb="real"] {
-  border: 4px solid;
-}
-
-[data-bomb]:not([data-bomb="real"]) {
-  opacity: 0.3;
-}
-
-div.window:nth-child(2) span:nth-child(odd) {
-  display: none;
 }
