@@ -1,0 +1,7 @@
+<span data-dead="true">💀</span>
+
+<span>👮</span>
+
+div.window:first-child span:first-child {
+  font-size: 1.5rem;
+}

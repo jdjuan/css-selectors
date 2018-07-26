@@ -1,0 +1,16 @@
+<div class="window">
+      <span data-bomb="fake-bomb">💣</span>
+      <span data-bomb="this-is-not-a-bomb">💣</span>
+      <span data-bomb="keep-trying">💣</span>
+      <span data-bomb="not-this-one">💣</span>
+      <span data-bomb="real">💣</span>
+      <span data-bomb="not-real">💣</span>
+    </div>
+
+[data-bomb="real"] {
+  border: 4px solid;
+}
+
+[data-bomb]:not([data-bomb="real"]) {
+  opacity: 0.3;
+}

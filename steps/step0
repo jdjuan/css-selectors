@@ -1,0 +1,28 @@
+<section>
+  <div id="building">
+  </div>
+</section>
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  height: 100vh;
+  width: 100vw;
+  background-color: indigo
+}
+
+div {
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+
+div#building {
+  width: 15rem;
+  height: 90%;
+  padding: 1rem;
+  background-color: aquamarine;
+}

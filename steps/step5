@@ -1,0 +1,9 @@
+div.window span {
+  font-size: 1rem;
+  transition: font-size 2s;
+  cursor: zoom-in
+}
+
+div.window:first-child span:hover {
+  font-size: 2rem;
+}

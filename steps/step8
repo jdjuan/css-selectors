@@ -1,0 +1,17 @@
+<span>🕳</span>
+<span>💃</span>
+
+<span>🔥</span>
+<span>💃</span>
+<span>🔥</span>
+<span>🕺</span>
+<span>🔥</span>
+<span>💃</span>
+<span>🔥</span>
+<span>🕺</span>
+
+div.window:nth-child(2) span:nth-child(odd) {
+  display: none;
+}
+
+<span>🕳</span>
