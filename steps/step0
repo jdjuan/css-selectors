@@ -3,19 +3,25 @@
   </div>
 </section>
 
-section {
+section,
+div {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: stretch;
+}
+
+section {
   height: 100vh;
   width: 100vw;
   background-color: indigo
 }
 
 div {
+  flex-direction: column;
+  justify-content: space-around;
   border: 3px solid black;
   box-sizing: border-box;
 }
