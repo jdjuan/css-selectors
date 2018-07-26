@@ -1,16 +1,11 @@
-div.window {
-  flex-direction: row;
-}
+<span>💃</span>
+<span>🕺</span>
+<span>💃</span>
+<span>🕺</span>
 
 div.window span {
   font-size: 1rem;
 }
-
-<span>💃</span>
-<span>🕺</span>
-<span>💃</span>
-<span>🕺</span>
-
 
 <span>💃</span>
 <span>🕺</span>

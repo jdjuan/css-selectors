@@ -1,3 +1,0 @@
-div.window span:nth-child(4n) {
-  border: 5px solid;
-}

@@ -7,3 +7,7 @@ div.window span {
 div.window:first-child span:hover {
   font-size: 2rem;
 }
+
+div.window:first-child span:nth-child(4) {
+  border: 5px solid;
+}
